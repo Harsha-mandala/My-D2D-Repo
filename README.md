@@ -133,8 +133,6 @@ project-root/
 - **TensorFlow not installing:** Use Python 3.11, not 3.12+.
 - **Flask app not running:** Check Python installation and run from terminal, not notebook.
 
-**Project by:** Venu Gopal  
+**Project by:** Mandala Harsha Yogananda Bharati 
 **Location:** Secunderabad, Telangana, India  
 **Date:** July 2025
-
-Let me know if you want to add anything specific or need a downloadable `.md` file!
