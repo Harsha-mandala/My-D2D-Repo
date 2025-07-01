@@ -17,7 +17,7 @@ This project implements a complete pipeline for detecting and recognizing traffi
 
 ## 1. Dataset Preparation
 
-- **Download and organize** the datasets for detection and recognition.
+- **Download and organize** the datasets for detection and recognition. I have used chinese traffic sign recognition database and german traffic sign detection data base.
 - **Detection (YOLO):**
   - Place images in `train/images/` and `val/images/`.
   - Use the provided `gt.txt` file to generate YOLO-format `.txt` annotation files in `train/labels/` and `val/labels/`.
