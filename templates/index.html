@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Sign Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+        .result { margin-top: 20px; }
+        img { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Traffic Sign Detection</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <button type="submit">Upload and Detect</button>
+    </form>
+    {% if result_image %}
+    <div class="result">
+        <h2>Result</h2>
+        <img src="{{ url_for('uploaded_file', filename=result_image) }}" alt="Result">
+    </div>
+    {% endif %}
+</body>
+</html>
