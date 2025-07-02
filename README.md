@@ -106,7 +106,7 @@ This project implements a complete pipeline for detecting and recognizing traffi
 project-root/
 ├── runs/
 │   └── detect/
-│       └── trainX/
+│       └── train6/
 │           └── weights/
 │               ├── best.pt
 │               └── last.pt
